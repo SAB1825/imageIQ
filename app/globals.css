@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 0%; /* Set background to black */
+    --foreground: 0 0% 100%; /* Set foreground (text) to white for contrast */
+    --card: 24 15% 20%; /* Dark gray card background */
+    --card-foreground: 0 0% 100%; /* White card text */
+    --popover: 24 15% 20%; /* Dark gray popover background */
+    --popover-foreground: 0 0% 100%; /* White popover text */
+    --primary: 222.2 47.4% 11.2%; /* Dark blue primary color */
+    --primary-foreground: 0 0% 100%; /* White text on primary background */
+    --secondary: 210 20% 60%; /* Medium gray secondary color */
+    --secondary-foreground: 0 0% 100%; /* White text on secondary background */
+    --muted: 0 0% 30%; /* Darker muted color */
+    --muted-foreground: 0 0% 80%; /* Light gray text on muted background */
+    --accent: 34 78% 55%; /* Vibrant orange accent color */
+    --accent-foreground: 0 0% 100%; /* White text on accent background */
+    --destructive: 0 84.2% 60.2%; /* Bright red destructive color */
+    --destructive-foreground: 0 0% 100%; /* White text on destructive background */
+    --border: 0 0% 30%; /* Darker gray border */
+    --input: 0 0% 20%; /* Very dark gray input background */
+    --ring: 0 0% 100%; /* White ring */
+    --radius: 0.5rem;
+    --chart-1: 12 76% 61%; /* Optimized chart color */
+    --chart-2: 173 58% 39%; /* Optimized chart color */
+    --chart-3: 197 37% 24%; /* Optimized chart color */
+    --chart-4: 43 74% 66%; /* Optimized chart color */
+    --chart-5: 27 87% 67%; /* Optimized chart color */
+  }
+
+  .dark {
+    --background: 0 0% 0%; /* Black background for dark mode */
+    --foreground: 0 0% 100%; /* White text for dark mode */
+    --card: 24 15% 20%; /* Dark gray card background */
+    --card-foreground: 0 0% 100%; /* White card text */
+    --popover: 24 15% 20%; /* Dark gray popover background */
+    --popover-foreground: 0 0% 100%; /* White popover text */
+    --primary: 222.2 47.4% 11.2%; /* Dark blue primary color */
+    --primary-foreground: 0 0% 100%; /* White text on primary background */
+    --secondary: 210 20% 60%; /* Medium gray secondary color */
+    --secondary-foreground: 0 0% 100%; /* White text on secondary background */
+    --muted: 0 0% 30%; /* Darker muted color */
+    --muted-foreground: 0 0% 80%; /* Light gray text on muted background */
+    --accent: 34 78% 55%; /* Vibrant orange accent color */
+    --accent-foreground: 0 0% 100%; /* White text on accent background */
+    --destructive: 0 84.2% 60.2%; /* Bright red destructive color */
+    --destructive-foreground: 0 0% 100%; /* White text on destructive background */
+    --border: 0 0% 30%; /* Darker gray border */
+    --input: 0 0% 20%; /* Very dark gray input background */
+    --ring: 0 0% 100%; /* White ring */
+    --chart-1: 220 70% 50%; /* Optimized chart color */
+    --chart-2: 160 60% 45%; /* Optimized chart color */
+    --chart-3: 30 80% 55%; /* Optimized chart color */
+    --chart-4: 280 65% 60%; /* Optimized chart color */
+    --chart-5: 340 75% 55%; /* Optimized chart color */
+  }
+}

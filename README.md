@@ -1,5 +1,5 @@
 
 DEPLOYED SITE:
-https://image-iq-black.vercel.app/
+https://imageiq.sabaris.site/
 
 STACK: NEXTJS , Google/Generative-AI
